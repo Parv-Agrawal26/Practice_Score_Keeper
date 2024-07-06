@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fullContainer">
+        <div>
+            <img src="https://images.unsplash.com/photo-1461748659110-16121c049d52?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="badminton image" id="badmintonImage">
+        </div>
+        <div id="heading">
+            <h2>SCORE KEEPER WIDGET&#127942;</h2>
+        </div>
+        <div id="scoreContainer">
+            <h1><span id="p1Score">0</span> to <span id="p2Score">0</span></h1>
+            <p>Use the buttons below to keep score</p>
+        </div>
+        <div id="selectContainer">
+            <label for="matchNum">Playing To: </label>
+            <select name="matchNum" id="matchNum">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+        </div>
+        <div id="btn">
+            <button id="p1Button">+1 Player One</button>
+            <button id="p2Button">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
