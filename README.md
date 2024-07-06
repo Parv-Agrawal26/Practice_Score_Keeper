@@ -19,4 +19,4 @@ The project is organized into the following directories and files:
 To get started with this project, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/scorekeeper-widget.git
+git clone https://github.com/Parv-Agrawal26/Practice_Score_Keeper.git
